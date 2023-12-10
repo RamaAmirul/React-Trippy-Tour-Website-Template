@@ -3,7 +3,13 @@ import "./AboutUsStyles.css";
 function AboutUs() {
   return (
     <div className="about-container">
-      <h1>Your Code Here</h1>
+      <h1>Our History</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque
+        habitant morbi tristique senectus. In metus vulputate eu scelerisque
+        felis imperdiet proin fermentum.
+      </p>
     </div>
   );
 }

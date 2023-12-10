@@ -7,7 +7,20 @@ import Trip from "../components/Trip";
 function Home() {
   return (
     <>
-      <h1>Call The Components</h1>
+      <Navbar />
+      <Hero
+        cName="hero"
+        heroimg="\src\assets\heroimg.jpg"
+        title="Your Journey ends here"
+        text="Pilih destinasi favoritmu"
+        buttonText="Travel Plan"
+        url="/"
+        btnClass="show"
+      />
+
+      <Destination />
+      <Trip />
+      <Footer />
     </>
   );
 }
